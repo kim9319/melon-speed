@@ -1,0 +1,30 @@
+{
+    "manifest_version":3,
+    "name":"melon speed",
+    "version": "1.0",
+    "description":"control playback speed with this extetention",
+    "permissions":["storage"],
+    "icons":{
+        "16":"icon.png",
+        "48":"icon.png",
+        "128":"icon.png"
+    },
+    "action":{
+        "default_popup":"popup.html"
+    },
+    "content_scripts":[
+        {
+            "matches":["*://*.youtube.com/*"],
+            "js":["content.js"]
+        }
+
+    ]
+
+
+
+
+
+
+
+
+}
