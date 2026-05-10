@@ -9,7 +9,6 @@ I built this project to learn how Chrome extensions work, using HTML, CSS, and J
 
 * **Keyboard Controls:** Quickly press the `+` (or `=`) key to speed up the video, and the `-` key to slow it down.
 * **Control Panel:** Click the extension icon to open a popup menu where you can click buttons to change the speed and see the exact current speed.
-* **Smart Ad Watcher:** Automatically detects when a YouTube ad is playing and rockets the speed to 10x! When the real video comes back, it returns to your normal speed.
 * **Memory:** Uses Chrome's local storage to remember your favorite speed, even if you close the browser or open a new video.
 
 ## 📁 Files in this Project
